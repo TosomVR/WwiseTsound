@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B0A4D358-3A90-413E-8985-7F0E70FE3A8A}" SchemaVersion="97" RootDocumentID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}">
+	<Events>
+		<WorkUnit Name="Environment" ID="{B0A4D358-3A90-413E-8985-7F0E70FE3A8A}" OwnerID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="EV_Forest" ID="{AB706E3F-198D-43F5-B9BE-B804587D02BA}">
+					<ChildrenList>
+						<Action Name="" ID="{50EAAAFB-A8A8-4A1C-ADC6-4189C18CF200}" ShortID="439977661">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest" ID="{025F4E10-A8CF-4CF2-B3AA-B018AAB6A268}" WorkUnitID="{E85E9279-538F-4FB1-91B6-98453DDE8574}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1CF5FA10-0264-45A7-94A5-0E7B50F9B923}" ShortID="645730801">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="4.5"/>
+								<Property Name="Probability" Type="Real64" Value="49"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BirdsFlaps" ID="{43713D54-CC3C-4850-B23C-4D2E82EC4801}" WorkUnitID="{E85E9279-538F-4FB1-91B6-98453DDE8574}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_UnderWater" ID="{8DAEA612-9981-41BA-A090-730A1F0E86CA}">
+					<ChildrenList>
+						<Action Name="" ID="{F0F2C7A8-549F-4715-9ACD-35574C04AAF2}" ShortID="308310471">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Underwater_diving_bubbles_loop" ID="{CE82F99A-7B15-42A6-BB97-AC58FA0621F1}" WorkUnitID="{4457A0EE-6E7B-4632-8CAE-60D05B83D416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2F9B1185-9B44-4FED-9E27-A5C7D5BB9947}" ShortID="563779394">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Yes" ID="{D4578BC8-4C50-4F7E-A0DF-45D0564CEF03}" WorkUnitID="{584BBC4A-54C3-4E96-A876-E24F71333926}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{50B21F47-E470-4870-9173-9B5970FC20FD}" ShortID="133486270">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UnderWater_Splash" ID="{AC73C086-9A5B-4CCE-A841-CE93E1581785}" WorkUnitID="{4457A0EE-6E7B-4632-8CAE-60D05B83D416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_UnderWater_End" ID="{975B39B7-A941-4A66-AFDD-4588C4D5EF72}">
+					<ChildrenList>
+						<Action Name="" ID="{0CC36EE8-8303-432B-A62F-85136C6582AA}" ShortID="134709056">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Underwater_diving_bubbles_loop" ID="{CE82F99A-7B15-42A6-BB97-AC58FA0621F1}" WorkUnitID="{4457A0EE-6E7B-4632-8CAE-60D05B83D416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E2DA4051-F1B7-4002-9C0B-98DF231CB7C8}" ShortID="966253697">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="No" ID="{C11A6CEB-C0A7-4665-B8FE-EA902FD68ABC}" WorkUnitID="{584BBC4A-54C3-4E96-A876-E24F71333926}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7B74FC4-85D9-42FB-84F3-A6D5C5B3E2EC}" ShortID="727545734">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UnderWater_Splash_Out" ID="{381E9C86-784E-476B-AE38-1BD4976E74E0}" WorkUnitID="{4457A0EE-6E7B-4632-8CAE-60D05B83D416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

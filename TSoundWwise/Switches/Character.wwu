@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60AC52B7-13F3-461D-9254-CF402BEDE75B}" SchemaVersion="97" RootDocumentID="{ED6DAB18-1EB6-4FA3-AEAD-7361D5EA3E9A}">
+	<Switches>
+		<WorkUnit Name="Character" ID="{60AC52B7-13F3-461D-9254-CF402BEDE75B}" OwnerID="{ED6DAB18-1EB6-4FA3-AEAD-7361D5EA3E9A}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="20"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="Steps_Material" ID="{A50E44A9-5363-42E1-9E76-79FC439DD97B}">
+					<ChildrenList>
+						<Switch Name="PYM_Concrete" ID="{6E838223-B7D5-4B5F-A4C2-90AE4D954408}"/>
+						<Switch Name="PYM_Dirt" ID="{958C62A2-C696-4732-BE8D-72C71D3DB133}"/>
+						<Switch Name="PYM_Grass" ID="{853E8757-95BF-4FE0-880A-49AE670B02E7}"/>
+						<Switch Name="PYM_Gravel" ID="{022461D2-C223-4560-B3C8-B060E8EF1D4F}"/>
+						<Switch Name="PYM_Ice" ID="{831C8310-CFCA-4E0C-9307-AC41BEA7893D}"/>
+						<Switch Name="PYM_Metal" ID="{46A198DC-CB54-4056-B760-3A2548EEACB6}"/>
+						<Switch Name="PYM_Mud" ID="{D09FAA96-FF37-4BB0-B0BE-6DD5B2FD3111}"/>
+						<Switch Name="PYM_Sand" ID="{77B6B59D-4851-48B8-9BA0-866AD20B865E}"/>
+						<Switch Name="PYM_Snow" ID="{D1A198A3-DA3B-4A1A-B8CE-1A8FD324C384}"/>
+						<Switch Name="PYM_Water" ID="{999BDB6E-8EE8-4B4D-A3A7-117387F51E69}"/>
+						<Switch Name="PYM_Wood" ID="{C9E7DA6C-4E89-4896-8C90-8A8DE9990CD1}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Steps_Type" ID="{115C60BE-E84D-4CED-ADFA-3784F2847422}">
+					<ChildrenList>
+						<Switch Name="Land" ID="{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}"/>
+						<Switch Name="Walk" ID="{A24FA0F7-60F9-44CD-A3BF-458DD275850F}"/>
+						<Switch Name="Run" ID="{18562581-A2D6-4512-8291-4A18EAA17023}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Attack_Voice" ID="{3EDBB2B6-2511-4DF7-B183-535E6EDA29C0}">
+					<ChildrenList>
+						<Switch Name="Attack_Long" ID="{58546050-99CF-4FD0-BFCC-D304138C10DE}"/>
+						<Switch Name="Attack_Short" ID="{6A6D994D-7D55-45C8-BD97-07226FB9BD43}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

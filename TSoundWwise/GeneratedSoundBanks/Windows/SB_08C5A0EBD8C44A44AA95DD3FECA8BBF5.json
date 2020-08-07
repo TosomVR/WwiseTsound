@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "250842280",
+    "GUID": "{0EF38CA8-8CA8-1CA8-A8A8-A8A8A8A8A8A8}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_08C5A0EBD8C44A44AA95DD3FECA8BBF5",
+    "ShortName": "SB_08C5A0EBD8C44A44AA95DD3FECA8BBF5",
+    "Path": "SB_08C5A0EBD8C44A44AA95DD3FECA8BBF5.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "417538175",
+      "Name": "Mus_Test_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Test_Off",
+      "GUID": "{08C5A0EB-D8C4-4A44-AA95-DD3FECA8BBF5}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

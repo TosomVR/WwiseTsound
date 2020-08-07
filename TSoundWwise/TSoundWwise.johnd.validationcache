@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1592474560" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\TSoundWwise.wproj" DateLow="1593423177" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\TSoundWwise.johnd.wsettings" DateLow="1596102951" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Triggers\Default Work Unit.wwu" DateLow="1594284834" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Switches\Music.wwu" DateLow="1595512664" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Switches\Default Work Unit.wwu" DateLow="1595512664" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Switches\Character.wwu" DateLow="1592491113" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\States\Music.wwu" DateLow="1593786208" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\States\Environment.wwu" DateLow="1592853140" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\States\Default Work Unit.wwu" DateLow="1592846155" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1596102950" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\SoundBanks\Default Work Unit.wwu" DateLow="1593178844" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Queries\Factory Queries.wwu" DateLow="1592474559" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Queries\Default Work Unit.wwu" DateLow="1592474559" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Presets\Factory Spatial Audio.wwu" DateLow="1592474559" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Presets\Default Work Unit.wwu" DateLow="1592474559" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Modulators\Default Work Unit.wwu" DateLow="1595514172" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1593909712" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1595502012" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Interactive Music Hierarchy\Music.wwu" DateLow="1595514171" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1593015370" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Game Parameters\Environment.wwu" DateLow="1594284834" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Game Parameters\Default Work Unit.wwu" DateLow="1592474559" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Events\Music.wwu" DateLow="1595516179" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Events\Levels.wwu" DateLow="1593178844" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Events\FXS.wwu" DateLow="1596102950" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Events\Environment.wwu" DateLow="1592825068" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Events\Default Work Unit.wwu" DateLow="1596102950" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Events\Character.wwu" DateLow="1594997937" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Effects\Factory Effects.wwu" DateLow="1595512664" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Effects\Default Work Unit.wwu" DateLow="1595502012" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1592474560" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1592474559" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Conversion Settings\Default Work Unit.wwu" DateLow="1593992836" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1592474560" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Audio Devices\Default Work Unit.wwu" DateLow="1592474560" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Attenuations\Default Work Unit.wwu" DateLow="1596102950" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1596102950" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Actor-Mixer Hierarchy\Music.wwu" DateLow="1595514171" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Actor-Mixer Hierarchy\Environment.wwu" DateLow="1592836599" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592474560" DateHigh="0"/>
+	<ValidationCacheItem File="G:\Unreal\TSoundWwise\Wwise\TSoundWwise\Actor-Mixer Hierarchy\Character.wwu" DateLow="1594997937" DateHigh="0"/>
+</ValidationCache>

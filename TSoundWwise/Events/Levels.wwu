@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F457FD11-210A-4AE3-BD06-6F976BADA320}" SchemaVersion="97" RootDocumentID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}">
+	<Events>
+		<WorkUnit Name="Levels" ID="{F457FD11-210A-4AE3-BD06-6F976BADA320}" OwnerID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Levels" ID="{667916B9-396F-4A02-919D-2B804C4AC9B6}" ShortID="991091145">
+					<ChildrenList>
+						<Event Name="EV_Load_Lvl_1" ID="{2955A53C-3B80-4EE6-9665-9AFD4D92FE29}">
+							<ChildrenList>
+								<Action Name="" ID="{229DF941-5C99-4989-B72A-061F01286777}" ShortID="34835478">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{C11A6CEB-C0A7-4665-B8FE-EA902FD68ABC}" WorkUnitID="{584BBC4A-54C3-4E96-A876-E24F71333926}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1FE7283B-9345-40C6-BA9A-843F119F4FDE}" ShortID="368392809">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Explore" ID="{4EF997A2-446D-4C78-8E0F-D2A730D5EC26}" WorkUnitID="{49E63384-843A-4AAB-83C4-C34CD908A2B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EF0945DB-7BE4-4868-B028-EE1C8E628F03}" ShortID="76447334">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NewMusicTaste" ID="{237C30A0-FF13-48C2-A9DD-418CD9031C80}" WorkUnitID="{5BBAA5C7-99DA-412F-AACA-027E84D93556}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Load_Lvl_2" ID="{58F6DACD-DA70-4E5A-8FE6-7432C4461F31}">
+							<ChildrenList>
+								<Action Name="" ID="{20514AB7-4C31-470B-BDA3-54E41ED8CF88}" ShortID="655048897">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{C11A6CEB-C0A7-4665-B8FE-EA902FD68ABC}" WorkUnitID="{584BBC4A-54C3-4E96-A876-E24F71333926}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F9B03C5E-2DE4-40E5-AD0F-508C6EA5BD21}" ShortID="283089197">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Combat" ID="{D9CEB685-F5D9-4623-A280-911BDA790BC1}" WorkUnitID="{49E63384-843A-4AAB-83C4-C34CD908A2B6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{441CDE65-228E-4947-ABDF-BDCA2AB9AE03}" ShortID="1044442714">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NewMusicTaste" ID="{237C30A0-FF13-48C2-A9DD-418CD9031C80}" WorkUnitID="{5BBAA5C7-99DA-412F-AACA-027E84D93556}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

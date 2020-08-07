@@ -1,0 +1,100 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2915562997",
+    "GUID": "{ADC7F5F5-F5F5-15F5-F5F5-F5F5F5F5F5F5}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_13BA449D1AD34758BC0B4C457BDD2526",
+    "ShortName": "SB_13BA449D1AD34758BC0B4C457BDD2526",
+    "Path": "SB_13BA449D1AD34758BC0B4C457BDD2526.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4136058077",
+      "Name": "Mus_Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Mus_Test",
+      "GUID": "{13BA449D-1AD3-4758-BC0B-4C457BDD2526}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "201352971",
+        "Language": "SFX",
+        "ShortName": "Music\\Test\\Secrets_of_Kingdom.WAV",
+        "Path": "SFX\\Music\\Test\\Secrets_of_Kingdom_D79FB2B7.wem"
+       },
+       {
+        "Id": "466218964",
+        "Language": "SFX",
+        "ShortName": "Music\\Test\\A_Long_Journey.WAV",
+        "Path": "SFX\\Music\\Test\\A_Long_Journey_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{4EF997A2-446D-4C78-8E0F-D2A730D5EC26}",
+        "Media": [
+         {
+          "Id": "466218964"
+         },
+         {
+          "Id": "466218964"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D9CEB685-F5D9-4623-A280-911BDA790BC1}",
+        "Media": [
+         {
+          "Id": "201352971"
+         },
+         {
+          "Id": "201352971"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\States\\Music\\MusicState",
+      "GUID": "{21671EF8-C991-4ADC-974D-ED25D83FAA13}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\MusicState\\None",
+        "GUID": "{3BBA35B4-4572-4A74-8D16-A525793A02C1}"
+       },
+       {
+        "Id": "508837814",
+        "Name": "Music_1",
+        "ObjectPath": "\\States\\Music\\MusicState\\Music_1",
+        "GUID": "{4EF997A2-446D-4C78-8E0F-D2A730D5EC26}"
+       },
+       {
+        "Id": "508837813",
+        "Name": "Music_2",
+        "ObjectPath": "\\States\\Music\\MusicState\\Music_2",
+        "GUID": "{D9CEB685-F5D9-4623-A280-911BDA790BC1}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

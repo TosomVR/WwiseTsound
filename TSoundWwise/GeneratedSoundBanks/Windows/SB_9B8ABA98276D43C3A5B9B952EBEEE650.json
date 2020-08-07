@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2057499057",
+    "GUID": "{7AA2F1B1-F1B1-11B1-B1B1-B1B1B1B1B1B1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9B8ABA98276D43C3A5B9B952EBEEE650",
+    "ShortName": "SB_9B8ABA98276D43C3A5B9B952EBEEE650",
+    "Path": "SB_9B8ABA98276D43C3A5B9B952EBEEE650.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "140460734",
+      "Name": "EV_Voice_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\EV_Voice_Jump",
+      "GUID": "{9B8ABA98-276D-43C3-A5B9-B952EBEEE650}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.225704",
+      "DurationMax": "0.263385",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "198985946",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Jump\\voice_male_b_effort_jump_06.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Jump\\voice_male_b_effort_jump_06_10C4C929.wem"
+       },
+       {
+        "Id": "455842460",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Jump\\voice_male_b_effort_jump_03.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Jump\\voice_male_b_effort_jump_03_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

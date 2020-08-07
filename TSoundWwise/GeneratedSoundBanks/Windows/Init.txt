@@ -1,0 +1,45 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Music\MusicState	
+	2213237662	Underwater			\Environment\Underwater	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicState			
+	1154582522	Mus_Explore	MusicState			
+	1505024177	Mus_Exit	MusicState			
+	1579364465	Mus_Combat	MusicState			
+	748895195	None	Underwater			
+	979470758	Yes	Underwater			
+	1668749452	No	Underwater			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	483097500	Yes	Underwater	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2034317711	BigRoom_AcousticTexture			\Default Work Unit\BigRoom_AcousticTexture	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	sfx			\Default Work Unit\Master Audio Bus\sfx	
+	411166466	Caracter			\Default Work Unit\Master Audio Bus\Caracter	
+	949388280	Animals			\Default Work Unit\Master Audio Bus\Environment\Animals	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Caracter\Footsteps	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+	4294671297	Voice_SFX			\Default Work Unit\Master Audio Bus\Caracter\Voice_SFX	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1319978159	Medium_Reverb			\Default Work Unit\Master Audio Bus\Medium_Reverb	
+	1494490713	Reflections			\Default Work Unit\Master Audio Bus\Environment\Reflections	
+	1800382044	New_Reverb			\Default Work Unit\Master Audio Bus\New_Reverb	
+	3304966093	Footstep_Verb			\Default Work Unit\Master Audio Bus\Footstep_Verb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	415841907	Space_Garage	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2513915904	Hall_Large	Wwise RoomVerb			
+	2849147824	Medium	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

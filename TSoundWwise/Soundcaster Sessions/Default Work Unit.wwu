@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47821DD6-2472-45EB-B2A4-A0AA5F8A162C}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{47821DD6-2472-45EB-B2A4-A0AA5F8A162C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music &amp; Effects" ID="{4A6667B9-AC64-49B2-8696-BE61596BA951}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="EV_UnderWater" ID="{8DAEA612-9981-41BA-A090-730A1F0E86CA}" WorkUnitID="{B0A4D358-3A90-413E-8985-7F0E70FE3A8A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mus_Test" ID="{13BA449D-1AD3-4758-BC0B-4C457BDD2526}" WorkUnitID="{5D028346-DFAD-4E3B-9661-3F7068E5D132}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_UnderWater_End" ID="{975B39B7-A941-4A66-AFDD-4588C4D5EF72}" WorkUnitID="{B0A4D358-3A90-413E-8985-7F0E70FE3A8A}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Footstep" ID="{346B1267-5693-455F-A734-B3ED75EB2ECB}" WorkUnitID="{4762FB76-FB53-4B10-912A-80AD48D2315E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Forest" ID="{AB706E3F-198D-43F5-B9BE-B804587D02BA}" WorkUnitID="{B0A4D358-3A90-413E-8985-7F0E70FE3A8A}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mus_Test_Off" ID="{08C5A0EB-D8C4-4A44-AA95-DD3FECA8BBF5}" WorkUnitID="{5D028346-DFAD-4E3B-9661-3F7068E5D132}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TestingSwitch" ID="{74BB9952-EEA2-4400-A77D-B37B35AB7D43}" WorkUnitID="{5BBAA5C7-99DA-412F-AACA-027E84D93556}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mus_Combat" ID="{FBE26B1F-E5AE-4020-9B69-08E1DF728E80}" WorkUnitID="{5D028346-DFAD-4E3B-9661-3F7068E5D132}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mus_Explore" ID="{A87729E5-3A23-4868-9337-7B4F07FB7C9B}" WorkUnitID="{5D028346-DFAD-4E3B-9661-3F7068E5D132}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MidiTesting" ID="{191A8294-5473-4ACB-B17B-7B3D0D0E0861}" WorkUnitID="{5BBAA5C7-99DA-412F-AACA-027E84D93556}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{1743A7FC-DA72-41BD-940C-D43B68ED93EF}"/>
+						<CurrentStateRef Name="Mus_Exit" ID="{8926D379-3B6F-4934-8166-39C644CFEFB5}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="PYM_Concrete" ID="{6E838223-B7D5-4B5F-A4C2-90AE4D954408}"/>
+						<CurrentSwitchRef Name="Soft" ID="{02C357EA-96BB-4FCB-9F79-8D9502957161}"/>
+						<CurrentSwitchRef Name="Land" ID="{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}"/>
+						<CurrentSwitchRef Name="Attack_Long" ID="{58546050-99CF-4FD0-BFCC-D304138C10DE}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

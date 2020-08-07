@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49E63384-843A-4AAB-83C4-C34CD908A2B6}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Music" ID="{49E63384-843A-4AAB-83C4-C34CD908A2B6}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<StateGroup Name="MusicState" ID="{21671EF8-C991-4ADC-974D-ED25D83FAA13}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{3BBA35B4-4572-4A74-8D16-A525793A02C1}"/>
+						<State Name="Mus_Explore" ID="{4EF997A2-446D-4C78-8E0F-D2A730D5EC26}"/>
+						<State Name="Mus_Combat" ID="{D9CEB685-F5D9-4623-A280-911BDA790BC1}"/>
+						<State Name="Mus_Exit" ID="{8926D379-3B6F-4934-8166-39C644CFEFB5}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

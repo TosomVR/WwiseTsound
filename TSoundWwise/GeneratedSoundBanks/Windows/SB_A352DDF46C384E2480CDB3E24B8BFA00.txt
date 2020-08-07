@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3471484954	EV_Voice_Attack			\Default Work Unit\Character\EV_Voice_Attack	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1964929366	Attack_Voice			\Default Work Unit\Character\Attack_Voice	
+
+Switch	ID	Name	Switch Group			Notes
+	1777109342	Attack_Short	Attack_Voice			
+	4069590146	Attack_Long	Attack_Voice			
+

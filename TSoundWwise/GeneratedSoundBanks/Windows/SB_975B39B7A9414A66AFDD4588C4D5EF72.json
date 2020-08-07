@@ -1,0 +1,65 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2993984061",
+    "GUID": "{B274923D-923D-123D-3D3D-3D3D3D3D3D3D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_975B39B7A9414A66AFDD4588C4D5EF72",
+    "ShortName": "SB_975B39B7A9414A66AFDD4588C4D5EF72",
+    "Path": "SB_975B39B7A9414A66AFDD4588C4D5EF72.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1772337774",
+      "Name": "EV_UnderWater_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\EV_UnderWater_End",
+      "GUID": "{975B39B7-A941-4A66-AFDD-4588C4D5EF72}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.706322",
+      "DurationMax": "0.856166",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "489896129",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_02.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_02_FB78CD91.wem"
+       },
+       {
+        "Id": "786185137",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_06.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_06_19C2D624.wem"
+       },
+       {
+        "Id": "1009237850",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_01.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_01_DF8B3A93.wem"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1668749452",
+      "Name": "No",
+      "ObjectPath": "\\States\\Environment\\Underwater\\No",
+      "GUID": "{C11A6CEB-C0A7-4665-B8FE-EA902FD68ABC}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

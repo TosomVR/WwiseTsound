@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5D028346-DFAD-4E3B-9661-3F7068E5D132}" SchemaVersion="97" RootDocumentID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}">
+	<Events>
+		<WorkUnit Name="Music" ID="{5D028346-DFAD-4E3B-9661-3F7068E5D132}" OwnerID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Mus_Test" ID="{13BA449D-1AD3-4758-BC0B-4C457BDD2526}">
+					<ChildrenList>
+						<Action Name="" ID="{9ED5D85F-1C0C-4A04-9DBC-068CB0F7D4DD}" ShortID="318039919">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NewMusicTaste" ID="{237C30A0-FF13-48C2-A9DD-418CD9031C80}" WorkUnitID="{5BBAA5C7-99DA-412F-AACA-027E84D93556}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mus_Test_Off" ID="{08C5A0EB-D8C4-4A44-AA95-DD3FECA8BBF5}">
+					<ChildrenList>
+						<Action Name="" ID="{A87D30E2-E86A-4B2B-A0AC-23947D5C07E5}" ShortID="1037244090">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NewMusicTaste" ID="{237C30A0-FF13-48C2-A9DD-418CD9031C80}" WorkUnitID="{5BBAA5C7-99DA-412F-AACA-027E84D93556}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mus_Explore" ID="{A87729E5-3A23-4868-9337-7B4F07FB7C9B}">
+					<ChildrenList>
+						<Action Name="" ID="{F60E0031-AAF1-4C33-8238-9F97053EDAEA}" ShortID="25594610">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mus_Explore" ID="{4EF997A2-446D-4C78-8E0F-D2A730D5EC26}" WorkUnitID="{49E63384-843A-4AAB-83C4-C34CD908A2B6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mus_Combat" ID="{FBE26B1F-E5AE-4020-9B69-08E1DF728E80}">
+					<ChildrenList>
+						<Action Name="" ID="{EF9717B6-B056-44DF-BCF5-ACB1F1135A33}" ShortID="617421526">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mus_Combat" ID="{D9CEB685-F5D9-4623-A280-911BDA790BC1}" WorkUnitID="{49E63384-843A-4AAB-83C4-C34CD908A2B6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_MidiTesting" ID="{475EBF49-6FAB-4F63-90FE-DFD6651DCDCA}">
+					<ChildrenList>
+						<Action Name="" ID="{869578E8-EE1A-48D6-B2A9-7BF6AFD590CF}" ShortID="481078338">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MidiTesting" ID="{191A8294-5473-4ACB-B17B-7B3D0D0E0861}" WorkUnitID="{5BBAA5C7-99DA-412F-AACA-027E84D93556}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,42 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3197713620",
+    "GUID": "{BE993CD4-3CD4-1CD4-D4D4-D4D4D4D4D4D4}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_6002FB9942B030C3C025D6BD9F24927A",
+    "ShortName": "SB_6002FB9942B030C3C025D6BD9F24927A",
+    "Path": "SB_6002FB9942B030C3C025D6BD9F24927A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1619815024",
+      "Name": "EV_Forest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\EV_Forest",
+      "GUID": "{AB706E3F-198D-43F5-B9BE-B804587D02BA}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "441922044",
+        "Language": "SFX",
+        "ShortName": "Environment\\Forest_Stereo_LOOP.wav",
+        "Path": "SFX\\Environment\\Forest_Stereo_LOOP_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1629766593	EV_Footstep			\Default Work Unit\Character\EV_Footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	25061853	Steps_Type			\Default Work Unit\Character\Steps_Type	
+	221286082	Steps_Material			\Default Work Unit\Character\Steps_Material	
+
+Switch	ID	Name	Switch Group			Notes
+	674522502	Land	Steps_Type			
+	712161704	Run	Steps_Type			
+	2108779966	Walk	Steps_Type			
+	426817057	PYM_Water	Steps_Material			
+	439772121	PYM_Gravel	Steps_Material			
+	1051639805	PYM_Snow	Steps_Material			
+	1124697645	PYM_Metal	Steps_Material			
+	1570613074	PYM_Sand	Steps_Material			
+	2310434378	PYM_Grass	Steps_Material			
+	2342170287	PYM_Dirt	Steps_Material			
+	2711880702	PYM_Mud	Steps_Material			
+	2746127481	PYM_Ice	Steps_Material			
+	2889614371	PYM_Wood	Steps_Material			
+	3010944749	PYM_Concrete	Steps_Material			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2213237662	Underwater			\Environment\Underwater	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Underwater			
+	979470758	Yes	Underwater			
+	1668749452	No	Underwater			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	347503489	Yes	Underwater	\Actor-Mixer Hierarchy\Default Work Unit\Character\Armour		
+	528806357	Yes	Underwater	\Actor-Mixer Hierarchy\Default Work Unit\Character\FootCollection		
+

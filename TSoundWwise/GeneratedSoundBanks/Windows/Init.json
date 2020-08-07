@@ -1,0 +1,79 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1319978159",
+      "Name": "Medium_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Medium_Reverb",
+      "GUID": "{90E02531-08D5-4290-84A0-AE443AE66D0C}"
+     },
+     {
+      "Id": "1494490713",
+      "Name": "Reflections",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environment\\Reflections",
+      "GUID": "{C195F7AC-5687-4C1E-BC40-78898844D1E6}"
+     },
+     {
+      "Id": "1800382044",
+      "Name": "New_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\New_Reverb",
+      "GUID": "{8B6068F6-A453-4F88-B8CE-01A22D19BA45}"
+     },
+     {
+      "Id": "3304966093",
+      "Name": "Footstep_Verb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Footstep_Verb",
+      "GUID": "{47F7F804-6B2E-4B4A-8AC2-41140B9F43BE}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2213237662",
+      "Name": "Underwater",
+      "ObjectPath": "\\States\\Environment\\Underwater",
+      "GUID": "{8D59A567-5F7A-4421-A5D2-D91B9BD02CA1}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Environment\\Underwater\\None",
+        "GUID": "{1743A7FC-DA72-41BD-940C-D43B68ED93EF}"
+       },
+       {
+        "Id": "979470758",
+        "Name": "Yes",
+        "ObjectPath": "\\States\\Environment\\Underwater\\Yes",
+        "GUID": "{D4578BC8-4C50-4F7E-A0DF-45D0564CEF03}"
+       },
+       {
+        "Id": "1668749452",
+        "Name": "No",
+        "ObjectPath": "\\States\\Environment\\Underwater\\No",
+        "GUID": "{C11A6CEB-C0A7-4665-B8FE-EA902FD68ABC}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

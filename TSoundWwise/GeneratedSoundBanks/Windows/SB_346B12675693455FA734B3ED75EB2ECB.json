@@ -1,0 +1,2150 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3579958227",
+    "GUID": "{D561D3D3-D3D3-13D3-D3D3-D3D3D3D3D3D3}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_346B12675693455FA734B3ED75EB2ECB",
+    "ShortName": "SB_346B12675693455FA734B3ED75EB2ECB",
+    "Path": "SB_346B12675693455FA734B3ED75EB2ECB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1629766593",
+      "Name": "EV_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\EV_Footstep",
+      "GUID": "{346B1267-5693-455F-A734-B3ED75EB2ECB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.241457",
+      "DurationMax": "1.135396",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "5478051",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_land_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_land_02_10C4C929.wem"
+       },
+       {
+        "Id": "13786354",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_08_10C4C929.wem"
+       },
+       {
+        "Id": "15490657",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_02_10C4C929.wem"
+       },
+       {
+        "Id": "17726108",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_02_10C4C929.wem"
+       },
+       {
+        "Id": "22967142",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_land_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_land_03_10C4C929.wem"
+       },
+       {
+        "Id": "23694784",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_04_10C4C929.wem"
+       },
+       {
+        "Id": "32093041",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_run_15.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_run_15_10C4C929.wem"
+       },
+       {
+        "Id": "41908659",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_20.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_20_10C4C929.wem"
+       },
+       {
+        "Id": "43085190",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_16.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_16_10C4C929.wem"
+       },
+       {
+        "Id": "51437506",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_03_10C4C929.wem"
+       },
+       {
+        "Id": "51719381",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_19.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_19_10C4C929.wem"
+       },
+       {
+        "Id": "60502082",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_run_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_run_09_10C4C929.wem"
+       },
+       {
+        "Id": "63949280",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_09_10C4C929.wem"
+       },
+       {
+        "Id": "70902412",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_15.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_15_10C4C929.wem"
+       },
+       {
+        "Id": "71055321",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_10.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_10_10C4C929.wem"
+       },
+       {
+        "Id": "73350487",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_run_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_run_09_10C4C929.wem"
+       },
+       {
+        "Id": "75875184",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_walk_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_walk_08_10C4C929.wem"
+       },
+       {
+        "Id": "85539361",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_01_10C4C929.wem"
+       },
+       {
+        "Id": "89332172",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_run_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "92890572",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_01_10C4C929.wem"
+       },
+       {
+        "Id": "99796592",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_18.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_18_10C4C929.wem"
+       },
+       {
+        "Id": "100534720",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_14.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_14_10C4C929.wem"
+       },
+       {
+        "Id": "102185428",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footsteps_shoe_snow_land_02.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footsteps_shoe_snow_land_02_10C4C929.wem"
+       },
+       {
+        "Id": "112605694",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_05_10C4C929.wem"
+       },
+       {
+        "Id": "115415748",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_08_10C4C929.wem"
+       },
+       {
+        "Id": "118658971",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_04_10C4C929.wem"
+       },
+       {
+        "Id": "125551601",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_08_10C4C929.wem"
+       },
+       {
+        "Id": "140197706",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_land_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_land_02_9E504025.wem"
+       },
+       {
+        "Id": "146593342",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_run_13.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_run_13_10C4C929.wem"
+       },
+       {
+        "Id": "161653660",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_07_10C4C929.wem"
+       },
+       {
+        "Id": "170016463",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_15.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_15_10C4C929.wem"
+       },
+       {
+        "Id": "174782410",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_13.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_13_10C4C929.wem"
+       },
+       {
+        "Id": "179360558",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_land_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_land_04_7A1A2E56.wem"
+       },
+       {
+        "Id": "187469101",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_03.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "213887087",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_run_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "220783069",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_12.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_12_10C4C929.wem"
+       },
+       {
+        "Id": "224323472",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_splash_light_wading_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_splash_light_wading_05_10C4C929.wem"
+       },
+       {
+        "Id": "228087161",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_09_10C4C929.wem"
+       },
+       {
+        "Id": "228592309",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "235740136",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_06_10C4C929.wem"
+       },
+       {
+        "Id": "236064562",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_02_10C4C929.wem"
+       },
+       {
+        "Id": "238868622",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_13.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_13_10C4C929.wem"
+       },
+       {
+        "Id": "251927232",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_run_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "253271229",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_11.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_11_10C4C929.wem"
+       },
+       {
+        "Id": "269666904",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_land_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_land_05_10C4C929.wem"
+       },
+       {
+        "Id": "270421542",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_03_10C4C929.wem"
+       },
+       {
+        "Id": "275340885",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_10.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_10_10C4C929.wem"
+       },
+       {
+        "Id": "286702494",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_land_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_land_05_10C4C929.wem"
+       },
+       {
+        "Id": "292863446",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footsteps_shoe_grass_land_02.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footsteps_shoe_grass_land_02_10C4C929.wem"
+       },
+       {
+        "Id": "298927209",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_15.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_15_10C4C929.wem"
+       },
+       {
+        "Id": "308446841",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_02_10C4C929.wem"
+       },
+       {
+        "Id": "310677394",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_01_DD290C0F.wem"
+       },
+       {
+        "Id": "315245825",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_splash_light_wading_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_splash_light_wading_07_10C4C929.wem"
+       },
+       {
+        "Id": "316293020",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_01.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_01_10C4C929.wem"
+       },
+       {
+        "Id": "316901260",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_run_13.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_run_13_10C4C929.wem"
+       },
+       {
+        "Id": "317093767",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_04_110983DE.wem"
+       },
+       {
+        "Id": "317102190",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_walk_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_walk_04_10C4C929.wem"
+       },
+       {
+        "Id": "317356849",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "336113855",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_11.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_11_10C4C929.wem"
+       },
+       {
+        "Id": "346021625",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_land_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_land_02_10C4C929.wem"
+       },
+       {
+        "Id": "347471739",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_05.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_05_10C4C929.wem"
+       },
+       {
+        "Id": "352977705",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_05_10C4C929.wem"
+       },
+       {
+        "Id": "360159659",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_splash_light_wading_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_splash_light_wading_06_10C4C929.wem"
+       },
+       {
+        "Id": "362463106",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_04_10C4C929.wem"
+       },
+       {
+        "Id": "364019803",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_run_14.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_run_14_10C4C929.wem"
+       },
+       {
+        "Id": "371715435",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_10.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_10_10C4C929.wem"
+       },
+       {
+        "Id": "371749125",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_12.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_12_10C4C929.wem"
+       },
+       {
+        "Id": "375667150",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "384282727",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_06_6ED88E66.wem"
+       },
+       {
+        "Id": "390308973",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_05_10C4C929.wem"
+       },
+       {
+        "Id": "396328022",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_07_10C4C929.wem"
+       },
+       {
+        "Id": "399583949",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_01_10C4C929.wem"
+       },
+       {
+        "Id": "406780015",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_07_10C4C929.wem"
+       },
+       {
+        "Id": "409393325",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_04_10C4C929.wem"
+       },
+       {
+        "Id": "414505606",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_07_10C4C929.wem"
+       },
+       {
+        "Id": "416987501",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_03_10C4C929.wem"
+       },
+       {
+        "Id": "417422844",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_17.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_17_10C4C929.wem"
+       },
+       {
+        "Id": "424848042",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_07_10C4C929.wem"
+       },
+       {
+        "Id": "430373657",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_01_10C4C929.wem"
+       },
+       {
+        "Id": "432119101",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_06_D1B20395.wem"
+       },
+       {
+        "Id": "441415760",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_01_10C4C929.wem"
+       },
+       {
+        "Id": "442252926",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_01_087E5216.wem"
+       },
+       {
+        "Id": "446151987",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_land_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_land_02_D2AAB55E.wem"
+       },
+       {
+        "Id": "447712189",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_walk_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_walk_09_10C4C929.wem"
+       },
+       {
+        "Id": "451473375",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_10.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_10_10C4C929.wem"
+       },
+       {
+        "Id": "452849680",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_run_14.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_run_14_10C4C929.wem"
+       },
+       {
+        "Id": "452928563",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_06_10C4C929.wem"
+       },
+       {
+        "Id": "467721022",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_08_10C4C929.wem"
+       },
+       {
+        "Id": "473441469",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_land_06_10C4C929.wem"
+       },
+       {
+        "Id": "479076918",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_06_10C4C929.wem"
+       },
+       {
+        "Id": "479430114",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_03_9CB19C89.wem"
+       },
+       {
+        "Id": "483775127",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_03_10C4C929.wem"
+       },
+       {
+        "Id": "486096858",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_run_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_run_03_B2D204CD.wem"
+       },
+       {
+        "Id": "487081794",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_land_v2_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_land_v2_04_10C4C929.wem"
+       },
+       {
+        "Id": "499308386",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_03_FFF43978.wem"
+       },
+       {
+        "Id": "502007615",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_07_10C4C929.wem"
+       },
+       {
+        "Id": "503074342",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_08_10C4C929.wem"
+       },
+       {
+        "Id": "516809169",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_land_v2_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_land_v2_03_10C4C929.wem"
+       },
+       {
+        "Id": "520386944",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_14.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_14_10C4C929.wem"
+       },
+       {
+        "Id": "522241230",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_01_3F387072.wem"
+       },
+       {
+        "Id": "526526296",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_16.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_16_10C4C929.wem"
+       },
+       {
+        "Id": "534723868",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_05_10C4C929.wem"
+       },
+       {
+        "Id": "538404628",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_land_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_land_03_3E9E6441.wem"
+       },
+       {
+        "Id": "556311183",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_15.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footstep_snow_walk_light_15_10C4C929.wem"
+       },
+       {
+        "Id": "556789185",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_02.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "558960376",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_13.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_13_10C4C929.wem"
+       },
+       {
+        "Id": "559972329",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_run_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_run_06_10C4C929.wem"
+       },
+       {
+        "Id": "562277772",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_04_7540A45B.wem"
+       },
+       {
+        "Id": "565444592",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_04.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_04_10C4C929.wem"
+       },
+       {
+        "Id": "566174948",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_12.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_12_10C4C929.wem"
+       },
+       {
+        "Id": "567487181",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_10.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_10_10C4C929.wem"
+       },
+       {
+        "Id": "570209051",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_09_10C4C929.wem"
+       },
+       {
+        "Id": "579827794",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_13.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_13_10C4C929.wem"
+       },
+       {
+        "Id": "580757268",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_16.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_16_10C4C929.wem"
+       },
+       {
+        "Id": "586674806",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_09_10C4C929.wem"
+       },
+       {
+        "Id": "595597668",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_03_10C4C929.wem"
+       },
+       {
+        "Id": "597372904",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_02.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footsteps_shoe_dirt_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "598304545",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_02_521AAC94.wem"
+       },
+       {
+        "Id": "600751343",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_07_10C4C929.wem"
+       },
+       {
+        "Id": "602656214",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_04_10C4C929.wem"
+       },
+       {
+        "Id": "604647455",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_land_04_10C4C929.wem"
+       },
+       {
+        "Id": "609148482",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_20.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_20_10C4C929.wem"
+       },
+       {
+        "Id": "637466245",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_05.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_05_10C4C929.wem"
+       },
+       {
+        "Id": "644565542",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_02_10C4C929.wem"
+       },
+       {
+        "Id": "646326680",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_05_10C4C929.wem"
+       },
+       {
+        "Id": "651740485",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_02_10C4C929.wem"
+       },
+       {
+        "Id": "655953020",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_08_10C4C929.wem"
+       },
+       {
+        "Id": "663356128",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_07_EE721765.wem"
+       },
+       {
+        "Id": "678348079",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_land_v2_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_land_v2_02_10C4C929.wem"
+       },
+       {
+        "Id": "689882879",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_05_10C4C929.wem"
+       },
+       {
+        "Id": "690340190",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_08_C2DDEF0A.wem"
+       },
+       {
+        "Id": "714445200",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_07_10C4C929.wem"
+       },
+       {
+        "Id": "714898715",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_06_10C4C929.wem"
+       },
+       {
+        "Id": "729818906",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_03_10C4C929.wem"
+       },
+       {
+        "Id": "736446138",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_walk_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_walk_03_10C4C929.wem"
+       },
+       {
+        "Id": "745308017",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_04_10C4C929.wem"
+       },
+       {
+        "Id": "750452909",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "761473883",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_03_10C4C929.wem"
+       },
+       {
+        "Id": "763575250",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_loose_walk_run_04_DD290C0F.wem"
+       },
+       {
+        "Id": "773615121",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_15.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_15_10C4C929.wem"
+       },
+       {
+        "Id": "796299758",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_walk_10.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_walk_10_10C4C929.wem"
+       },
+       {
+        "Id": "806257105",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_14.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_14_10C4C929.wem"
+       },
+       {
+        "Id": "807298707",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_10.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_10_10C4C929.wem"
+       },
+       {
+        "Id": "807447865",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_11.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_11_10C4C929.wem"
+       },
+       {
+        "Id": "807750921",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_12.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_12_10C4C929.wem"
+       },
+       {
+        "Id": "810017991",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_12.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_12_10C4C929.wem"
+       },
+       {
+        "Id": "813644820",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "816616803",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_walk_run_06_10C4C929.wem"
+       },
+       {
+        "Id": "817164533",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "822432461",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_03.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "829371157",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_walk_01_10C4C929.wem"
+       },
+       {
+        "Id": "830264906",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Armour\\Armour\\trash_4_wav.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Armour\\Armour\\trash_4_wav_8A9FE5E8.wem"
+       },
+       {
+        "Id": "835170453",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_11.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_11_10C4C929.wem"
+       },
+       {
+        "Id": "836817491",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_05_10C4C929.wem"
+       },
+       {
+        "Id": "843059685",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_18.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_18_10C4C929.wem"
+       },
+       {
+        "Id": "871442164",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Snow\\footsteps_shoe_snow_land_01.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Snow\\footsteps_shoe_snow_land_01_10C4C929.wem"
+       },
+       {
+        "Id": "872939080",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_walk_05_91E0AC76.wem"
+       },
+       {
+        "Id": "876891434",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_17.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_17_10C4C929.wem"
+       },
+       {
+        "Id": "892151454",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_land_01_10C4C929.wem"
+       },
+       {
+        "Id": "899581702",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_08_10C4C929.wem"
+       },
+       {
+        "Id": "906672111",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "912159694",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_06_10C4C929.wem"
+       },
+       {
+        "Id": "929764590",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_05_10C4C929.wem"
+       },
+       {
+        "Id": "937131778",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "938969960",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_14.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_14_10C4C929.wem"
+       },
+       {
+        "Id": "947287917",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footsteps_shoe_grass_land_01.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footsteps_shoe_grass_land_01_10C4C929.wem"
+       },
+       {
+        "Id": "950705956",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_14.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_14_10C4C929.wem"
+       },
+       {
+        "Id": "954721053",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_17.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_17_10C4C929.wem"
+       },
+       {
+        "Id": "958659308",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_run_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_run_08_10C4C929.wem"
+       },
+       {
+        "Id": "958842311",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_04.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_04_10C4C929.wem"
+       },
+       {
+        "Id": "967672309",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_12.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_12_10C4C929.wem"
+       },
+       {
+        "Id": "971199724",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_07_10C4C929.wem"
+       },
+       {
+        "Id": "974021229",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_land_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_land_01_10C4C929.wem"
+       },
+       {
+        "Id": "975747525",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_01_10C4C929.wem"
+       },
+       {
+        "Id": "976064000",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_04_10C4C929.wem"
+       },
+       {
+        "Id": "982472535",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_09_BF79C056.wem"
+       },
+       {
+        "Id": "986332442",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_08_10C4C929.wem"
+       },
+       {
+        "Id": "988077720",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_land_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_land_04_10C4C929.wem"
+       },
+       {
+        "Id": "992288208",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_run_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_run_07_BCB70E26.wem"
+       },
+       {
+        "Id": "993486861",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_09_10C4C929.wem"
+       },
+       {
+        "Id": "997257897",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_low_walk_04_10C4C929.wem"
+       },
+       {
+        "Id": "999788986",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_16.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_16_10C4C929.wem"
+       },
+       {
+        "Id": "1000381719",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_walk_05_BBC83C6A.wem"
+       },
+       {
+        "Id": "1003980256",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_06.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Sand\\footstep_sand_run_06_10C4C929.wem"
+       },
+       {
+        "Id": "1004372311",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_07.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Dirt\\footstep_dirt_land_07_10C4C929.wem"
+       },
+       {
+        "Id": "1021525586",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_walk_08.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_walk_08_10C4C929.wem"
+       },
+       {
+        "Id": "1024223802",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_05.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Metal\\footstep_metal_high_run_05_10C4C929.wem"
+       },
+       {
+        "Id": "1040562564",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_13.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_13_10C4C929.wem"
+       },
+       {
+        "Id": "1045631189",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Water\\footstep_water_land_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Water\\footstep_water_land_04_10C4C929.wem"
+       },
+       {
+        "Id": "1046242470",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_04_10C4C929.wem"
+       },
+       {
+        "Id": "1048962848",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_run_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Mud\\footstep_mud_run_01_FBAC9FED.wem"
+       },
+       {
+        "Id": "1049782832",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_16.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_16_10C4C929.wem"
+       },
+       {
+        "Id": "1053543356",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_09.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Gravel\\footstep_gravel_walk_09_10C4C929.wem"
+       },
+       {
+        "Id": "1060030237",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_04.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footstep_wood_walk_04_10C4C929.wem"
+       },
+       {
+        "Id": "1060712931",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_15.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_run_15_10C4C929.wem"
+       },
+       {
+        "Id": "1061706875",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_01.wav",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Wood\\footsteps_shoe_wood_run_01_10C4C929.wem"
+       },
+       {
+        "Id": "1062858724",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_03.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Grass\\footstep_grass_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "1070945482",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_01.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Concrete\\footstep_concrete_walk_01_10C4C929.wem"
+       },
+       {
+        "Id": "1072282009",
+        "Language": "SFX",
+        "ShortName": "Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_run_02.WAV",
+        "Path": "SFX\\Character\\Footsteps\\FootCollection\\Ice\\footstep_ice_crunchy_run_02_10C4C929.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{6E838223-B7D5-4B5F-A4C2-90AE4D954408}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "678348079"
+           },
+           {
+            "Id": "516809169"
+           },
+           {
+            "Id": "487081794"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "228592309"
+           },
+           {
+            "Id": "371715435"
+           },
+           {
+            "Id": "253271229"
+           },
+           {
+            "Id": "238868622"
+           },
+           {
+            "Id": "520386944"
+           },
+           {
+            "Id": "1060712931"
+           },
+           {
+            "Id": "1049782832"
+           },
+           {
+            "Id": "876891434"
+           },
+           {
+            "Id": "609148482"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "1070945482"
+           },
+           {
+            "Id": "235740136"
+           },
+           {
+            "Id": "396328022"
+           },
+           {
+            "Id": "986332442"
+           },
+           {
+            "Id": "807447865"
+           },
+           {
+            "Id": "220783069"
+           },
+           {
+            "Id": "558960376"
+           },
+           {
+            "Id": "806257105"
+           },
+           {
+            "Id": "298927209"
+           },
+           {
+            "Id": "526526296"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{958C62A2-C696-4732-BE8D-72C71D3DB133}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "416987501"
+           },
+           {
+            "Id": "602656214"
+           },
+           {
+            "Id": "929764590"
+           },
+           {
+            "Id": "912159694"
+           },
+           {
+            "Id": "1004372311"
+           },
+           {
+            "Id": "115415748"
+           },
+           {
+            "Id": "71055321"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "813644820"
+           },
+           {
+            "Id": "745308017"
+           },
+           {
+            "Id": "816616803"
+           },
+           {
+            "Id": "414505606"
+           },
+           {
+            "Id": "503074342"
+           },
+           {
+            "Id": "807750921"
+           },
+           {
+            "Id": "316293020"
+           },
+           {
+            "Id": "597372904"
+           },
+           {
+            "Id": "187469101"
+           },
+           {
+            "Id": "565444592"
+           },
+           {
+            "Id": "347471739"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "452928563"
+           },
+           {
+            "Id": "310677394"
+           },
+           {
+            "Id": "375667150"
+           },
+           {
+            "Id": "763575250"
+           },
+           {
+            "Id": "317356849"
+           },
+           {
+            "Id": "112605694"
+           },
+           {
+            "Id": "13786354"
+           },
+           {
+            "Id": "63949280"
+           },
+           {
+            "Id": "567487181"
+           },
+           {
+            "Id": "406780015"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{853E8757-95BF-4FE0-880A-49AE670B02E7}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "947287917"
+           },
+           {
+            "Id": "292863446"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "85539361"
+           },
+           {
+            "Id": "906672111"
+           },
+           {
+            "Id": "1062858724"
+           },
+           {
+            "Id": "118658971"
+           },
+           {
+            "Id": "534723868"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "829371157"
+           },
+           {
+            "Id": "17726108"
+           },
+           {
+            "Id": "729818906"
+           },
+           {
+            "Id": "23694784"
+           },
+           {
+            "Id": "689882879"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{022461D2-C223-4560-B3C8-B060E8EF1D4F}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "892151454"
+           },
+           {
+            "Id": "15490657"
+           },
+           {
+            "Id": "362463106"
+           },
+           {
+            "Id": "714445200"
+           },
+           {
+            "Id": "125551601"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "559972329"
+           },
+           {
+            "Id": "958659308"
+           },
+           {
+            "Id": "316901260"
+           },
+           {
+            "Id": "452849680"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "430373657"
+           },
+           {
+            "Id": "644565542"
+           },
+           {
+            "Id": "761473883"
+           },
+           {
+            "Id": "1046242470"
+           },
+           {
+            "Id": "646326680"
+           },
+           {
+            "Id": "479076918"
+           },
+           {
+            "Id": "502007615"
+           },
+           {
+            "Id": "899581702"
+           },
+           {
+            "Id": "1053543356"
+           },
+           {
+            "Id": "275340885"
+           },
+           {
+            "Id": "835170453"
+           },
+           {
+            "Id": "566174948"
+           },
+           {
+            "Id": "1040562564"
+           },
+           {
+            "Id": "950705956"
+           },
+           {
+            "Id": "170016463"
+           },
+           {
+            "Id": "580757268"
+           },
+           {
+            "Id": "954721053"
+           },
+           {
+            "Id": "99796592"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{831C8310-CFCA-4E0C-9307-AC41BEA7893D}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "442252926"
+           },
+           {
+            "Id": "236064562"
+           },
+           {
+            "Id": "51437506"
+           },
+           {
+            "Id": "409393325"
+           },
+           {
+            "Id": "390308973"
+           },
+           {
+            "Id": "473441469"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "1072282009"
+           },
+           {
+            "Id": "251927232"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "736446138"
+           },
+           {
+            "Id": "317102190"
+           },
+           {
+            "Id": "1021525586"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{46A198DC-CB54-4056-B760-3A2548EEACB6}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "441415760"
+           },
+           {
+            "Id": "308446841"
+           },
+           {
+            "Id": "595597668"
+           },
+           {
+            "Id": "604647455"
+           },
+           {
+            "Id": "570209051"
+           },
+           {
+            "Id": "451473375"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "975747525"
+           },
+           {
+            "Id": "937131778"
+           },
+           {
+            "Id": "817164533"
+           },
+           {
+            "Id": "976064000"
+           },
+           {
+            "Id": "1024223802"
+           },
+           {
+            "Id": "714898715"
+           },
+           {
+            "Id": "971199724"
+           },
+           {
+            "Id": "655953020"
+           },
+           {
+            "Id": "228087161"
+           },
+           {
+            "Id": "807298707"
+           },
+           {
+            "Id": "336113855"
+           },
+           {
+            "Id": "810017991"
+           },
+           {
+            "Id": "579827794"
+           },
+           {
+            "Id": "938969960"
+           },
+           {
+            "Id": "773615121"
+           },
+           {
+            "Id": "999788986"
+           },
+           {
+            "Id": "417422844"
+           },
+           {
+            "Id": "843059685"
+           },
+           {
+            "Id": "51719381"
+           },
+           {
+            "Id": "41908659"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "75875184"
+           },
+           {
+            "Id": "447712189"
+           },
+           {
+            "Id": "796299758"
+           },
+           {
+            "Id": "43085190"
+           },
+           {
+            "Id": "399583949"
+           },
+           {
+            "Id": "651740485"
+           },
+           {
+            "Id": "270421542"
+           },
+           {
+            "Id": "997257897"
+           },
+           {
+            "Id": "836817491"
+           },
+           {
+            "Id": "600751343"
+           },
+           {
+            "Id": "70902412"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D09FAA96-FF37-4BB0-B0BE-6DD5B2FD3111}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "974021229"
+           },
+           {
+            "Id": "140197706"
+           },
+           {
+            "Id": "538404628"
+           },
+           {
+            "Id": "179360558"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "1048962848"
+           },
+           {
+            "Id": "486096858"
+           },
+           {
+            "Id": "992288208"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "598304545"
+           },
+           {
+            "Id": "499308386"
+           },
+           {
+            "Id": "562277772"
+           },
+           {
+            "Id": "1000381719"
+           },
+           {
+            "Id": "432119101"
+           },
+           {
+            "Id": "663356128"
+           },
+           {
+            "Id": "690340190"
+           },
+           {
+            "Id": "982472535"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{77B6B59D-4851-48B8-9BA0-866AD20B865E}",
+        "Children": [
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "522241230"
+           },
+           {
+            "Id": "479430114"
+           },
+           {
+            "Id": "317093767"
+           },
+           {
+            "Id": "872939080"
+           },
+           {
+            "Id": "384282727"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "446151987"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "750452909"
+           },
+           {
+            "Id": "1003980256"
+           },
+           {
+            "Id": "424848042"
+           },
+           {
+            "Id": "467721022"
+           },
+           {
+            "Id": "993486861"
+           },
+           {
+            "Id": "967672309"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D1A198A3-DA3B-4A1A-B8CE-1A8FD324C384}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "871442164"
+           },
+           {
+            "Id": "102185428"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "60502082"
+           },
+           {
+            "Id": "146593342"
+           },
+           {
+            "Id": "364019803"
+           },
+           {
+            "Id": "32093041"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "92890572"
+           },
+           {
+            "Id": "371749125"
+           },
+           {
+            "Id": "174782410"
+           },
+           {
+            "Id": "100534720"
+           },
+           {
+            "Id": "556311183"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{999BDB6E-8EE8-4B4D-A3A7-117387F51E69}",
+        "Children": [
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "224323472"
+           },
+           {
+            "Id": "360159659"
+           },
+           {
+            "Id": "315245825"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "346021625"
+           },
+           {
+            "Id": "22967142"
+           },
+           {
+            "Id": "1045631189"
+           },
+           {
+            "Id": "269666904"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "213887087"
+           },
+           {
+            "Id": "89332172"
+           },
+           {
+            "Id": "73350487"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C9E7DA6C-4E89-4896-8C90-8A8DE9990CD1}",
+        "Children": [
+         {
+          "SwitchValue": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}",
+          "Media": [
+           {
+            "Id": "5478051"
+           },
+           {
+            "Id": "988077720"
+           },
+           {
+            "Id": "286702494"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{18562581-A2D6-4512-8291-4A18EAA17023}",
+          "Media": [
+           {
+            "Id": "637466245"
+           },
+           {
+            "Id": "958842311"
+           },
+           {
+            "Id": "822432461"
+           },
+           {
+            "Id": "1061706875"
+           },
+           {
+            "Id": "556789185"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}",
+          "Media": [
+           {
+            "Id": "483775127"
+           },
+           {
+            "Id": "1060030237"
+           },
+           {
+            "Id": "352977705"
+           },
+           {
+            "Id": "161653660"
+           },
+           {
+            "Id": "586674806"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "25061853",
+      "Name": "Steps_Type",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Type",
+      "GUID": "{115C60BE-E84D-4CED-ADFA-3784F2847422}",
+      "Switches": [
+       {
+        "Id": "674522502",
+        "Name": "Land",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Type\\Land",
+        "GUID": "{387530CB-8A65-4B6A-9CA4-6A26665AC6CE}"
+       },
+       {
+        "Id": "2108779966",
+        "Name": "Walk",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Type\\Walk",
+        "GUID": "{A24FA0F7-60F9-44CD-A3BF-458DD275850F}"
+       },
+       {
+        "Id": "712161704",
+        "Name": "Run",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Type\\Run",
+        "GUID": "{18562581-A2D6-4512-8291-4A18EAA17023}"
+       }
+      ]
+     },
+     {
+      "Id": "221286082",
+      "Name": "Steps_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material",
+      "GUID": "{A50E44A9-5363-42E1-9E76-79FC439DD97B}",
+      "Switches": [
+       {
+        "Id": "3010944749",
+        "Name": "PYM_Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Concrete",
+        "GUID": "{6E838223-B7D5-4B5F-A4C2-90AE4D954408}"
+       },
+       {
+        "Id": "2342170287",
+        "Name": "PYM_Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Dirt",
+        "GUID": "{958C62A2-C696-4732-BE8D-72C71D3DB133}"
+       },
+       {
+        "Id": "2310434378",
+        "Name": "PYM_Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Grass",
+        "GUID": "{853E8757-95BF-4FE0-880A-49AE670B02E7}"
+       },
+       {
+        "Id": "439772121",
+        "Name": "PYM_Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Gravel",
+        "GUID": "{022461D2-C223-4560-B3C8-B060E8EF1D4F}"
+       },
+       {
+        "Id": "2746127481",
+        "Name": "PYM_Ice",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Ice",
+        "GUID": "{831C8310-CFCA-4E0C-9307-AC41BEA7893D}"
+       },
+       {
+        "Id": "1124697645",
+        "Name": "PYM_Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Metal",
+        "GUID": "{46A198DC-CB54-4056-B760-3A2548EEACB6}"
+       },
+       {
+        "Id": "2711880702",
+        "Name": "PYM_Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Mud",
+        "GUID": "{D09FAA96-FF37-4BB0-B0BE-6DD5B2FD3111}"
+       },
+       {
+        "Id": "1570613074",
+        "Name": "PYM_Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Sand",
+        "GUID": "{77B6B59D-4851-48B8-9BA0-866AD20B865E}"
+       },
+       {
+        "Id": "1051639805",
+        "Name": "PYM_Snow",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Snow",
+        "GUID": "{D1A198A3-DA3B-4A1A-B8CE-1A8FD324C384}"
+       },
+       {
+        "Id": "426817057",
+        "Name": "PYM_Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Water",
+        "GUID": "{999BDB6E-8EE8-4B4D-A3A7-117387F51E69}"
+       },
+       {
+        "Id": "2889614371",
+        "Name": "PYM_Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Steps_Material\\PYM_Wood",
+        "GUID": "{C9E7DA6C-4E89-4896-8C90-8A8DE9990CD1}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

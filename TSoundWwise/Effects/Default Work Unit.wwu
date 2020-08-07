@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{786077FF-3291-4C08-9B28-AA9CA1F1BE20}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{786077FF-3291-4C08-9B28-AA9CA1F1BE20}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Test_Mastering_Suite" ID="{F92C8252-7F81-485C-B503-D34E47AC8342}" PluginName="Mastering Suite" CompanyID="0" PluginID="186" PluginType="3">
+					<PropertyList>
+						<Property Name="compressorBand2MakeupGain" Type="Real32" Value="-0.2020202"/>
+						<Property Name="masterVolumeChannel1" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel10" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel11" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel12" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel2" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel3" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel4" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel5" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel6" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel7" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel8" Type="Real32" Value="12"/>
+						<Property Name="masterVolumeChannel9" Type="Real32" Value="12"/>
+						<Property Name="paramBand1Frequency" Type="Real32" Value="120.4386"/>
+						<Property Name="paramBand1Gain" Type="Real32" Value="-1.785714"/>
+						<Property Name="paramBand2Frequency" Type="Real32" Value="193.0241"/>
+						<Property Name="paramBand2Gain" Type="Real32" Value="-10.53571"/>
+						<Property Name="paramBand3Frequency" Type="Real32" Value="503.3975"/>
+						<Property Name="paramBand3Gain" Type="Real32" Value="-3.928571"/>
+						<Property Name="paramBand4Frequency" Type="Real32" Value="3751.092"/>
+						<Property Name="paramBand4Gain" Type="Real32" Value="11.78571"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Music_Mastering_Suite" ID="{7E8AE21A-4DCE-4A8A-B926-177E43977381}" PluginName="Mastering Suite" CompanyID="0" PluginID="186" PluginType="3">
+					<PropertyList>
+						<Property Name="compressorBand1MakeupGain" Type="Real32" Value="0.2020202"/>
+						<Property Name="compressorLinkStereoPairs" Type="bool" Value="True"/>
+						<Property Name="paramBand1Frequency" Type="Real32" Value="40.27122"/>
+						<Property Name="paramBand1Gain" Type="Real32" Value="-19.10714"/>
+						<Property Name="paramBand2Frequency" Type="Real32" Value="115.0646"/>
+						<Property Name="paramBand2Gain" Type="Real32" Value="9.107142"/>
+						<Property Name="paramBand3FilterMode" Type="int32" Value="2"/>
+						<Property Name="paramBand3Frequency" Type="Real32" Value="503.3975"/>
+						<Property Name="paramBand3Gain" Type="Real32" Value="7.142857"/>
+						<Property Name="paramBand4Frequency" Type="Real32" Value="9782.668"/>
+						<Property Name="paramBand4Gain" Type="Real32" Value="-20"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

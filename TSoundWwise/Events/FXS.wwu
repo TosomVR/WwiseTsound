@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20F68054-B79D-487C-94F8-A26235A9D9BF}" SchemaVersion="97" RootDocumentID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}">
+	<Events>
+		<WorkUnit Name="FXS" ID="{20F68054-B79D-487C-94F8-A26235A9D9BF}" OwnerID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="EV_Spatial_Punch" ID="{53D10087-B341-44AD-B852-225945E3C3C1}">
+					<ChildrenList>
+						<Action Name="" ID="{F1010552-B528-4BB7-979A-B02332DC58BA}" ShortID="740667265">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Simple_Punch_9" ID="{EDE3FB55-1CC0-4B31-AB8E-0E0035635511}" WorkUnitID="{4457A0EE-6E7B-4632-8CAE-60D05B83D416}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

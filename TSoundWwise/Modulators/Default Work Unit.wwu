@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B824946-A61A-435F-834B-3ADEFE3C5CE2}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{2B824946-A61A-435F-834B-3ADEFE3C5CE2}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="LFO Vibrato" ID="{B10CCBD9-DDAF-4616-BDB1-6FC568C1734F}" ShortID="471761058">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{C8EBA0B5-DAF1-46C0-8151-EDD8C70D4CCF}" ShortID="462908398">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="CC #1: Modulation" ID="{B618CBBE-04FA-4149-A36B-37B8A1F2B642}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{83A8A78B-EBFD-4BD3-B2EC-9B1DD572BFFA}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>127</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="6"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorEnvelope Name="MidBase Modulator Envelope" ID="{D6E65EC2-EBD9-4C35-8DFC-A92E7D06F016}" ShortID="269415016">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{A7130D5A-DB95-42A4-96E4-128B6FE79406}" ShortID="726347123">
+									<ReferenceList/>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorEnvelope Name="SmoothOut" ID="{A86D78A7-8F4D-4660-9A07-84FA64586C92}" ShortID="129829785"/>
+				<ModulatorEnvelope Name="Smooth In" ID="{55FFFE2D-BF2D-468A-86C2-2E8E1DE17EC1}" ShortID="257589177">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="0">
+							<RTPCList>
+								<RTPC Name="" ID="{19346DF8-871D-4D8E-B379-4310CB4214A7}" ShortID="959865262">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<Custom>
+												<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{04E4F839-4393-4FA2-9D93-F564023DD609}" ShortID="96749663">
+													<PropertyList>
+														<Property Name="EnvelopeAttackCurve" Type="Real64" Value="10"/>
+														<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.547"/>
+													</PropertyList>
+												</ModulatorEnvelope>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{78470BC9-E2AB-47C8-B24D-BF8CB2303049}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>100</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>100</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="1"/>
+						<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorTime Name="New Modulator Time" ID="{34391BB8-06D5-4A06-93CE-8E4E99837FCC}" ShortID="435804563"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

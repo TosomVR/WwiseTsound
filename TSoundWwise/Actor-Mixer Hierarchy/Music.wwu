@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60EDB414-8DDC-4D88-8539-9D0BB2AA3B67}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Music" ID="{60EDB414-8DDC-4D88-8539-9D0BB2AA3B67}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Synth" ID="{C084BBCA-F0D4-41E1-BDC4-98C12F93A0BD}" ShortID="49091899">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{080D46BE-C5C2-4189-A55E-8F2AF28C13EE}" ShortID="884438708" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Level" Type="Real32" Value="-12"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="-6">
+									<RTPCList>
+										<RTPC Name="" ID="{915A874D-E766-45AC-A231-C4170EA30820}" ShortID="752593577">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LFO Vibrato" ID="{B10CCBD9-DDAF-4616-BDB1-6FC568C1734F}" WorkUnitID="{2B824946-A61A-435F-834B-3ADEFE3C5CE2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A893F8A5-A546-496D-A90F-98B6A7566AAF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>150</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Osc1Waveform" Type="int32" Value="2"/>
+								<Property Name="Osc2Level" Type="Real32" Value="-10"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="6">
+									<RTPCList>
+										<RTPC Name="" ID="{4494257E-8CDF-45D3-8C57-2B0603301FB1}" ShortID="824478753">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="LFO Vibrato" ID="{B10CCBD9-DDAF-4616-BDB1-6FC568C1734F}" WorkUnitID="{2B824946-A61A-435F-834B-3ADEFE3C5CE2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{739A3E2D-3692-4E00-86B0-C1E380ED38E3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Osc2Waveform" Type="int32" Value="3"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{2AF442A6-28BF-422C-B558-DECE9D5DE565}" ShortID="791873866">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{DDE9D1BC-9E6A-40FF-9158-13CCEEA9DD04}" ShortID="644041160">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.095"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{375C9268-8169-4BA4-9C13-378239077552}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{080D46BE-C5C2-4189-A55E-8F2AF28C13EE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="MidiNotes" ID="{A77A19A0-38AF-4009-8912-CD4A75085874}" ShortID="691954026">
+					<ChildrenList>
+						<BlendContainer Name="MidiBase_String" ID="{CD5B661C-FE33-4735-BDEB-515E1568D2F5}" ShortID="507355038">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MidiBase_C4" ID="{A06D8151-F223-446A-8E1E-C0017658AAE6}" ShortID="136182408">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="61"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="60"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MidiBase_C4" ID="{3DB1F27C-D649-422D-855D-789E197E76C8}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Midi\MidiBase_C4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665347601"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MidiBase_C4" ID="{3DB1F27C-D649-422D-855D-789E197E76C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MidiBase_D4" ID="{A64051FE-7D8C-400A-B329-2310265DDF0B}" ShortID="587609132">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="63"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="62"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="62"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MidiBase_D4" ID="{51C7EF0A-12AE-4CC8-A92F-9E791A901E57}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Midi\MidiBase_D4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1039587767"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MidiBase_D4" ID="{51C7EF0A-12AE-4CC8-A92F-9E791A901E57}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MidiBase_F4" ID="{6B17C589-4653-483C-BF07-E2FCF80B9FF2}" ShortID="886947364">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="66"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="65"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="65"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MidiBase_F4" ID="{260BE2EE-CA9D-4F24-8411-65BF53C13497}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Midi\MidiBase_F4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="139933332"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MidiBase_F4" ID="{260BE2EE-CA9D-4F24-8411-65BF53C13497}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="MidiBase_Brass" ID="{2C785DC6-E512-46F6-8C47-75BB5324E978}" ShortID="52835451">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+									<ObjectRef Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MidiBase_Brass_C4" ID="{063F360B-864C-450B-A0EF-D618B1FBCDE1}" ShortID="1011525439">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="61"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="60"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MidiBase_Brass_C4" ID="{414C2085-4DE4-4080-8D7D-01F3C20799CF}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Midi\MidiBase_Brass_C4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="418124343"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MidiBase_Brass_C4" ID="{414C2085-4DE4-4080-8D7D-01F3C20799CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MidiBase_Brass_D4" ID="{02D65D8C-070C-4760-8C35-F180BC45CCAD}" ShortID="715583838">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="63"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="62"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="62"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MidiBase_Brass_D4" ID="{4648C827-B304-408B-A956-BCC95D51E8AF}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Midi\MidiBase_Brass_D4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485708424"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MidiBase_Brass_D4" ID="{4648C827-B304-408B-A956-BCC95D51E8AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MidiBase_Brass_F4" ID="{2CCF79D3-2EA0-4C66-883B-B0F51092B3BA}" ShortID="782836298">
+									<PropertyList>
+										<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+										<Property Name="MidiKeyFilterMax" Type="int32" Value="66"/>
+										<Property Name="MidiKeyFilterMin" Type="int32" Value="65"/>
+										<Property Name="MidiTrackingRootNote" Type="int32" Value="65"/>
+										<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MidiBase_Brass_F4" ID="{A2810961-FAC6-44DF-813A-C8ABBBACE1A9}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Midi\MidiBase_Brass_F4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="948331747"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MidiBase_Brass_F4" ID="{A2810961-FAC6-44DF-813A-C8ABBBACE1A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E85E9279-538F-4FB1-91B6-98453DDE8574}" SchemaVersion="97" RootDocumentID="{EE01B2DD-3114-4477-A682-0D0D8A455185}">
+	<AudioObjects>
+		<WorkUnit Name="Environment" ID="{E85E9279-538F-4FB1-91B6-98453DDE8574}" OwnerID="{EE01B2DD-3114-4477-A682-0D0D8A455185}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Forest" ID="{210AAA18-C0A7-404E-8436-9B02A6132834}" ShortID="511569009">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environment" ID="{6DB58089-135A-4EF7-B2E2-529CE5D8FA81}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Forest" ID="{025F4E10-A8CF-4CF2-B3AA-B018AAB6A268}" ShortID="679920577">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Forest_Stereo_LOOP" ID="{A0C7FFBB-8E34-4602-8E75-0CC1014427E2}" ShortID="1038600509">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{6DB58089-135A-4EF7-B2E2-529CE5D8FA81}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Forest_Stereo_LOOP" ID="{6DC9C410-F363-4B0D-93EB-FCACDAD48443}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Forest_Stereo_LOOP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="441922044"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Forest_Stereo_LOOP" ID="{6DC9C410-F363-4B0D-93EB-FCACDAD48443}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="BirdsFlaps" ID="{43713D54-CC3C-4850-B23C-4D2E82EC4801}" ShortID="822079061">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Animals" ID="{BED0FCE7-DBC6-42B1-8D1A-A4B6A3E9BA89}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bird_Flap_01" ID="{EF9849D9-2B98-4C22-9577-408580DBA981}" ShortID="177755242">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{6DB58089-135A-4EF7-B2E2-529CE5D8FA81}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_Flap_01" ID="{B2C90656-BFD2-435F-AB84-BF7C1B106463}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Birds\Bird_Flap_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="170322976"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_Flap_01" ID="{B2C90656-BFD2-435F-AB84-BF7C1B106463}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bird_Flap_02" ID="{4AFA01AB-AEE8-4A85-A646-4DFA42D96657}" ShortID="1036599844">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{6DB58089-135A-4EF7-B2E2-529CE5D8FA81}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_Flap_02" ID="{75BC8CDF-0911-4382-BF45-BA7EB908C0CF}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Birds\Bird_Flap_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="734988639"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_Flap_02" ID="{75BC8CDF-0911-4382-BF45-BA7EB908C0CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bird_Flap_03" ID="{5CCDDCA2-101D-4D06-A470-993CE189A8AD}" ShortID="531067128">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{6DB58089-135A-4EF7-B2E2-529CE5D8FA81}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_Flap_03" ID="{546CE2D7-2983-42B4-819D-79FA2D493940}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Birds\Bird_Flap_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="766508803"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_Flap_03" ID="{546CE2D7-2983-42B4-819D-79FA2D493940}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bird_Flap_04" ID="{E93418B3-E516-4503-A4AB-D38992AB6DE7}" ShortID="691851476">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{6DB58089-135A-4EF7-B2E2-529CE5D8FA81}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_Flap_04" ID="{F6719A6B-5935-4220-8BAD-646D60BD22A1}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Birds\Bird_Flap_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="825049701"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_Flap_04" ID="{F6719A6B-5935-4220-8BAD-646D60BD22A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bird_Flap_05" ID="{9BCCEC9E-22B7-4B63-8DDC-848B46F04DEA}" ShortID="648533488">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0E2F0CC9-6A81-4ECB-9D67-A59691AD377D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{6DB58089-135A-4EF7-B2E2-529CE5D8FA81}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bird_Flap_05" ID="{07C3879E-7D89-49B7-A0B6-677849F685C2}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Birds\Bird_Flap_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1036950444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bird_Flap_05" ID="{07C3879E-7D89-49B7-A0B6-677849F685C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{AD3A9B69-BC34-447C-88A1-04D2C96D969A}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="BirdsFlaps_Path1" ID="{CA1E1B14-853C-4E20-BF5D-C4D9A23F5D1F}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="3000"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-87.34177</XPos>
+													<YPos>45.54139</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-18.98734</XPos>
+													<YPos>29.29937</YPos>
+													<Flags>0</Flags>
+													<Time>1000</Time>
+												</Point>
+												<Point>
+													<XPos>62.65823</XPos>
+													<YPos>52.86624</YPos>
+													<Flags>0</Flags>
+													<Time>2000</Time>
+												</Point>
+												<Point>
+													<XPos>82.2784810126582</XPos>
+													<YPos>74.5222929936306</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="BirdsFlaps_Path1_01" ID="{F74A6884-43CA-47CA-AEA0-211F66C2CEFC}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="3000"/>
+												<Property Name="RandomX" Type="Real64" Value="68"/>
+												<Property Name="RandomY" Type="Real64" Value="27"/>
+												<Property Name="RandomZ" Type="Real64" Value="29"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-35.44304</XPos>
+													<YPos>-64.64969</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-94.30379</XPos>
+													<YPos>5.09554</YPos>
+													<Flags>0</Flags>
+													<Time>600</Time>
+												</Point>
+												<Point>
+													<XPos>-68.35443</XPos>
+													<YPos>56.6879</YPos>
+													<Flags>0</Flags>
+													<Time>1200</Time>
+												</Point>
+												<Point>
+													<XPos>-22.7848</XPos>
+													<YPos>77.70701</YPos>
+													<Flags>0</Flags>
+													<Time>1800</Time>
+												</Point>
+												<Point>
+													<XPos>34.17722</XPos>
+													<YPos>59.23567</YPos>
+													<Flags>0</Flags>
+													<Time>2400</Time>
+												</Point>
+												<Point>
+													<XPos>100</XPos>
+													<YPos>45.22293</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="BirdsFlaps_Path1_02" ID="{7D0DEB36-9508-4E9F-94BF-C00F15F8E35C}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="3000"/>
+												<Property Name="RandomX" Type="Real64" Value="76"/>
+												<Property Name="RandomY" Type="Real64" Value="21"/>
+												<Property Name="RandomZ" Type="Real64" Value="34"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-62.02532</XPos>
+													<YPos>-86.94268</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>3.79747</XPos>
+													<YPos>-78.98088</YPos>
+													<Flags>0</Flags>
+													<Time>600</Time>
+												</Point>
+												<Point>
+													<XPos>41.77215</XPos>
+													<YPos>-50.31848</YPos>
+													<Flags>0</Flags>
+													<Time>1200</Time>
+												</Point>
+												<Point>
+													<XPos>46.83545</XPos>
+													<YPos>3.82166</YPos>
+													<Flags>0</Flags>
+													<Time>1800</Time>
+												</Point>
+												<Point>
+													<XPos>62.02532</XPos>
+													<YPos>53.50318</YPos>
+													<Flags>0</Flags>
+													<Time>2400</Time>
+												</Point>
+												<Point>
+													<XPos>94.3038</XPos>
+													<YPos>68.15286</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="BirdsFlaps_Path1_03" ID="{0089BB6B-AEB8-4EE3-A801-DEBAACCCC8F7}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="3000"/>
+												<Property Name="RandomX" Type="Real64" Value="68"/>
+												<Property Name="RandomY" Type="Real64" Value="23"/>
+												<Property Name="RandomZ" Type="Real64" Value="34"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>5.6962</XPos>
+													<YPos>55.73248</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-68.35443</XPos>
+													<YPos>30.57325</YPos>
+													<Flags>0</Flags>
+													<Time>1000</Time>
+												</Point>
+												<Point>
+													<XPos>-63.29114</XPos>
+													<YPos>-35.03185</YPos>
+													<Flags>0</Flags>
+													<Time>2000</Time>
+												</Point>
+												<Point>
+													<XPos>-13.29114</XPos>
+													<YPos>-79.61784</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="BirdsFlaps_Path1_04" ID="{103F5559-5353-4693-9106-CB3CA485BEE4}">
+											<PropertyList>
+												<Property Name="Duration" Type="Uint32" Value="3000"/>
+												<Property Name="RandomX" Type="Real64" Value="13"/>
+												<Property Name="RandomY" Type="Real64" Value="28"/>
+												<Property Name="RandomZ" Type="Real64" Value="61"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>-68.35444</XPos>
+													<YPos>-35.35033</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+												<Point>
+													<XPos>-25.31645</XPos>
+													<YPos>-79.61783</YPos>
+													<Flags>0</Flags>
+													<Time>500</Time>
+												</Point>
+												<Point>
+													<XPos>65.18987</XPos>
+													<YPos>-49.04459</YPos>
+													<Flags>0</Flags>
+													<Time>1000</Time>
+												</Point>
+												<Point>
+													<XPos>53.16455</XPos>
+													<YPos>29.29936</YPos>
+													<Flags>0</Flags>
+													<Time>1500</Time>
+												</Point>
+												<Point>
+													<XPos>-44.93671</XPos>
+													<YPos>23.56688</YPos>
+													<Flags>0</Flags>
+													<Time>2000</Time>
+												</Point>
+												<Point>
+													<XPos>-63.29114</XPos>
+													<YPos>59.87261</YPos>
+													<Flags>0</Flags>
+													<Time>2500</Time>
+												</Point>
+												<Point>
+													<XPos>-27.8481</XPos>
+													<YPos>99.36306</YPos>
+													<Flags>0</Flags>
+													<Time>3000</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Underwater" ID="{8D59A567-5F7A-4421-A5D2-D91B9BD02CA1}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="No" ID="{C11A6CEB-C0A7-4665-B8FE-EA902FD68ABC}"/>
+								<CustomState Name="" ID="{FC0D077B-A766-456A-8AA5-EB0858FAA754}" ShortID="149059652"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Yes" ID="{D4578BC8-4C50-4F7E-A0DF-45D0564CEF03}"/>
+								<CustomState Name="" ID="{1145FF2B-30DB-4606-848B-C67C1BFF0006}" ShortID="307364029">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="79"/>
+										<Property Name="Volume" Type="Real64" Value="-10"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

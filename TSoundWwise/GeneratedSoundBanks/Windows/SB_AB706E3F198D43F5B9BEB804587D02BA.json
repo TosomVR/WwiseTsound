@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3634770430",
+    "GUID": "{D8A631FE-31FE-11FE-FEFE-FEFEFEFEFEFE}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AB706E3F198D43F5B9BEB804587D02BA",
+    "ShortName": "SB_AB706E3F198D43F5B9BEB804587D02BA",
+    "Path": "SB_AB706E3F198D43F5B9BEB804587D02BA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1619815024",
+      "Name": "EV_Forest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\EV_Forest",
+      "GUID": "{AB706E3F-198D-43F5-B9BE-B804587D02BA}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "170322976",
+        "Language": "SFX",
+        "ShortName": "Environment\\Birds\\Bird_Flap_01.wav",
+        "Path": "SFX\\Environment\\Birds\\Bird_Flap_01_10C4C929.wem"
+       },
+       {
+        "Id": "441922044",
+        "Language": "SFX",
+        "ShortName": "Environment\\Forest_Stereo_LOOP.wav",
+        "Path": "SFX\\Environment\\Forest_Stereo_LOOP_10C4C929.wem"
+       },
+       {
+        "Id": "734988639",
+        "Language": "SFX",
+        "ShortName": "Environment\\Birds\\Bird_Flap_02.wav",
+        "Path": "SFX\\Environment\\Birds\\Bird_Flap_02_10C4C929.wem"
+       },
+       {
+        "Id": "766508803",
+        "Language": "SFX",
+        "ShortName": "Environment\\Birds\\Bird_Flap_03.wav",
+        "Path": "SFX\\Environment\\Birds\\Bird_Flap_03_10C4C929.wem"
+       },
+       {
+        "Id": "825049701",
+        "Language": "SFX",
+        "ShortName": "Environment\\Birds\\Bird_Flap_04.wav",
+        "Path": "SFX\\Environment\\Birds\\Bird_Flap_04_10C4C929.wem"
+       },
+       {
+        "Id": "1036950444",
+        "Language": "SFX",
+        "ShortName": "Environment\\Birds\\Bird_Flap_05.wav",
+        "Path": "SFX\\Environment\\Birds\\Bird_Flap_05_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

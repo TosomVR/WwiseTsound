@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1619815024	EV_Forest			\Default Work Unit\Environment\EV_Forest	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2213237662	Underwater			\Environment\Underwater	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Underwater			
+	979470758	Yes	Underwater			
+	1668749452	No	Underwater			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	307364029	Yes	Underwater	\Actor-Mixer Hierarchy\Default Work Unit\Environment\Forest		
+

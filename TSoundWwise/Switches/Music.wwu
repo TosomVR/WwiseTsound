@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E8042A4-E83D-46B9-BC12-A29CDD65853D}" SchemaVersion="97" RootDocumentID="{ED6DAB18-1EB6-4FA3-AEAD-7361D5EA3E9A}">
+	<Switches>
+		<WorkUnit Name="Music" ID="{1E8042A4-E83D-46B9-BC12-A29CDD65853D}" OwnerID="{ED6DAB18-1EB6-4FA3-AEAD-7361D5EA3E9A}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="SW_Intense" ID="{0D960C47-2B2E-43AC-9F02-129D7F34C29C}">
+					<ChildrenList>
+						<Switch Name="Soft" ID="{02C357EA-96BB-4FCB-9F79-8D9502957161}"/>
+						<Switch Name="Strong" ID="{CE5C25A7-575B-4991-8ED3-D4F60AB2E4A8}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

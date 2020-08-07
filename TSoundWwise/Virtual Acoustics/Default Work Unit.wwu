@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64184250-7B0A-4824-8346-539C0F97F332}" SchemaVersion="97">
+	<VirtualAcoustics>
+		<WorkUnit Name="Default Work Unit" ID="{64184250-7B0A-4824-8346-539C0F97F332}" PersistMode="Standalone">
+			<ChildrenList>
+				<AcousticTexture Name="BigRoom_AcousticTexture" ID="{E9208CF3-0933-4AFA-9A8F-3D4841F8DEA1}">
+					<PropertyList>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionLow" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+					</PropertyList>
+				</AcousticTexture>
+			</ChildrenList>
+		</WorkUnit>
+	</VirtualAcoustics>
+</WwiseDocument>

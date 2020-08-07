@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4136058077	Mus_Test			\Default Work Unit\Music\Mus_Test	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Music\MusicState	
+	2213237662	Underwater			\Environment\Underwater	
+
+State	ID	Name	State Group			Notes
+	508837813	Music_2	MusicState			
+	508837814	Music_1	MusicState			
+	748895195	None	MusicState			
+	748895195	None	Underwater			
+	979470758	Yes	Underwater			
+	1668749452	No	Underwater			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	417475927	Yes	Underwater	\Interactive Music Hierarchy\Default Work Unit\TestingSwitch\Testing\A_Long_Journey_01\A_Long_Journey		
+	476294070	Yes	Underwater	\Interactive Music Hierarchy\Default Work Unit\TestingSwitch\Testing\A_Long_Journey_02\A_Long_Journey		
+	968707992	Yes	Underwater	\Interactive Music Hierarchy\Default Work Unit\TestingSwitch		
+

@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2674142203",
+    "GUID": "{9F642BFB-2BFB-1BFB-FBFB-FBFBFBFBFBFB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8DAEA612998141BAA090730A1F0E86CA",
+    "ShortName": "SB_8DAEA612998141BAA090730A1F0E86CA",
+    "Path": "SB_8DAEA612998141BAA090730A1F0E86CA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1127512328",
+      "Name": "EV_UnderWater",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\EV_UnderWater",
+      "GUID": "{8DAEA612-9981-41BA-A090-730A1F0E86CA}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "101000123",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_06.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_06_10C4C929.wem"
+       },
+       {
+        "Id": "315480188",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_01.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_01_10C4C929.wem"
+       },
+       {
+        "Id": "676387735",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\underwater_sea_diving_bubbles_loop_03.WAV",
+        "Path": "SFX\\Environment\\Water\\underwater_sea_diving_bubbles_loop_03_D79FB2B7.wem"
+       },
+       {
+        "Id": "923515958",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_02.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_02_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "979470758",
+      "Name": "Yes",
+      "ObjectPath": "\\States\\Environment\\Underwater\\Yes",
+      "GUID": "{D4578BC8-4C50-4F7E-A0DF-45D0564CEF03}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

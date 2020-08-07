@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4762FB76-FB53-4B10-912A-80AD48D2315E}" SchemaVersion="97" RootDocumentID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}">
+	<Events>
+		<WorkUnit Name="Character" ID="{4762FB76-FB53-4B10-912A-80AD48D2315E}" OwnerID="{4D19E44A-664F-486E-88C3-9AD9FF5E6880}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="20"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="EV_Footstep" ID="{346B1267-5693-455F-A734-B3ED75EB2ECB}">
+					<ChildrenList>
+						<Action Name="" ID="{7A153C02-B2AC-4B6D-8B16-54458B368EC3}" ShortID="65727399">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootCollection" ID="{505FAF30-915B-4914-90F0-EEF42E3226A4}" WorkUnitID="{F0D2A983-227F-427D-BB0D-F6ACBCD5BB26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A0BDBFBF-5988-4C07-BC5A-02D901AB132F}" ShortID="255221425">
+							<PropertyList>
+								<Property Name="Probability" Type="Real64" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MaleGrunt_12" ID="{803B8D1D-7BBD-44A8-A4F3-E97D3D1246ED}" WorkUnitID="{F0D2A983-227F-427D-BB0D-F6ACBCD5BB26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Voice_Jump" ID="{9B8ABA98-276D-43C3-A5B9-B952EBEEE650}">
+					<ChildrenList>
+						<Action Name="" ID="{B7184D05-2045-4757-8994-5797FFD2BEA7}" ShortID="405015511">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{694E0211-0B8F-44A5-80A0-9F158AF5C2F9}" WorkUnitID="{F0D2A983-227F-427D-BB0D-F6ACBCD5BB26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Voice_Attack" ID="{A352DDF4-6C38-4E24-80CD-B3E24B8BFA00}">
+					<ChildrenList>
+						<Action Name="" ID="{9029BB90-D519-42AF-B5CE-AA6E660F1ADC}" ShortID="767987173">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SW_Attack" ID="{74D45879-9CE7-4151-BB54-73CE582E09E9}" WorkUnitID="{F0D2A983-227F-427D-BB0D-F6ACBCD5BB26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Voice_Pain" ID="{9FB47DCF-D458-41EF-BFB9-04D0902AD45F}">
+					<ChildrenList>
+						<Action Name="" ID="{BF57AE6D-8B12-4AE1-9F29-73117D9F3C13}" ShortID="1029635977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pain" ID="{D32B6F37-9185-4510-AFDC-34AC06351D17}" WorkUnitID="{F0D2A983-227F-427D-BB0D-F6ACBCD5BB26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Voice_Grunt" ID="{C97390F2-503F-41E5-81C0-A9B157FA630B}">
+					<ChildrenList>
+						<Action Name="" ID="{7AEDFD02-C3DE-4D4C-A13F-250964C82267}" ShortID="254261205">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grunt" ID="{115AC6E8-97A3-44DA-B9E8-06034EBACFAD}" WorkUnitID="{F0D2A983-227F-427D-BB0D-F6ACBCD5BB26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

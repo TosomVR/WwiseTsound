@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1434095106",
+    "GUID": "{557A8E02-8E02-1E02-0202-020202020202}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C97390F2503F41E581C0A9B157FA630B",
+    "ShortName": "SB_C97390F2503F41E581C0A9B157FA630B",
+    "Path": "SB_C97390F2503F41E581C0A9B157FA630B.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "427669132",
+      "Name": "EV_Voice_Grunt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\EV_Voice_Grunt",
+      "GUID": "{C97390F2-503F-41E5-81C0-A9B157FA630B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.230000",
+      "DurationMax": "0.320000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "219708423",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Grunt\\voice_male_effort_grunt_05.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Grunt\\voice_male_effort_grunt_05_10C4C929.wem"
+       },
+       {
+        "Id": "914907389",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Grunt\\voice_male_effort_grunt_04.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Grunt\\voice_male_effort_grunt_04_10C4C929.wem"
+       },
+       {
+        "Id": "1033410011",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Grunt\\voice_male_effort_grunt_06.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Grunt\\voice_male_effort_grunt_06_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

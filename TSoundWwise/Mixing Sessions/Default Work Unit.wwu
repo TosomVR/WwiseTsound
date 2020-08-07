@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{28912CEB-DE98-4E7F-9B89-53DC7B69DD97}" SchemaVersion="97">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{28912CEB-DE98-4E7F-9B89-53DC7B69DD97}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Buses Mixing Session" ID="{E8CD3969-EA4D-448E-8FF6-87D906C466B3}">
+					<ObjectList>
+						<ObjectRef Name="Caracter" ID="{FA9F660C-8900-4C47-A590-FB6C25961956}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="Footsteps" ID="{16D9F7F2-D984-4BC5-A94A-3597C2092620}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="Medium_Reverb" ID="{90E02531-08D5-4290-84A0-AE443AE66D0C}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="Footstep_Verb" ID="{47F7F804-6B2E-4B4A-8AC2-41140B9F43BE}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="Voice_SFX" ID="{B7AF1909-B172-4E9C-9692-5E5313A6B1A2}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="Environment" ID="{6DB58089-135A-4EF7-B2E2-529CE5D8FA81}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="Animals" ID="{BED0FCE7-DBC6-42B1-8D1A-A4B6A3E9BA89}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="Music" ID="{4D9322F4-F72C-4659-9D96-BC7F868DF638}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="sfx" ID="{C0C3FC8B-9220-4E5E-A885-7493749297BE}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3ED9E494-5059-419F-B54E-C406841889F0}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

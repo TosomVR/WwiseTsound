@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2816904729",
+    "GUID": "{A7E68E19-8E19-1E19-1919-191919191919}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9FB47DCFD45841EFBFB904D0902AD45F",
+    "ShortName": "SB_9FB47DCFD45841EFBFB904D0902AD45F",
+    "Path": "SB_9FB47DCFD45841EFBFB904D0902AD45F.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1253915418",
+      "Name": "EV_Voice_Pain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\EV_Voice_Pain",
+      "GUID": "{9FB47DCF-D458-41EF-BFB9-04D0902AD45F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.374403",
+      "DurationMax": "0.453107",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "344281825",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Pain\\voice_male_grunt_pain_02.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Pain\\voice_male_grunt_pain_02_10C4C929.wem"
+       },
+       {
+        "Id": "633492836",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Pain\\voice_male_grunt_pain_01.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Pain\\voice_male_grunt_pain_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

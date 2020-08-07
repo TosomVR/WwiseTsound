@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	427669132	EV_Voice_Grunt			\Default Work Unit\Character\EV_Voice_Grunt	
+

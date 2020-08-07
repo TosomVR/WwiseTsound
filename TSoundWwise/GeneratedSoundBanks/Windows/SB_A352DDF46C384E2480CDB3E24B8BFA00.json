@@ -1,0 +1,180 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\",
+   "SourceFilesRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\TSoundWwise\\Wwise\\TSoundWwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1944451803",
+    "GUID": "{73E5FADB-FADB-1ADB-DBDB-DBDBDBDBDBDB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_A352DDF46C384E2480CDB3E24B8BFA00",
+    "ShortName": "SB_A352DDF46C384E2480CDB3E24B8BFA00",
+    "Path": "SB_A352DDF46C384E2480CDB3E24B8BFA00.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3471484954",
+      "Name": "EV_Voice_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\EV_Voice_Attack",
+      "GUID": "{A352DDF4-6C38-4E24-80CD-B3E24B8BFA00}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.263813",
+      "DurationMax": "0.930194",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "3081599",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_c_attack_08.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_c_attack_08_10C4C929.wem"
+       },
+       {
+        "Id": "89656979",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_b_attack_set1_02.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_b_attack_set1_02_10C4C929.wem"
+       },
+       {
+        "Id": "239300754",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_c_attack_02.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_c_attack_02_10C4C929.wem"
+       },
+       {
+        "Id": "317509285",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_c_attack_07.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_c_attack_07_10C4C929.wem"
+       },
+       {
+        "Id": "458775047",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_b_attack_set1_03.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_b_attack_set1_03_10C4C929.wem"
+       },
+       {
+        "Id": "608288290",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_c_attack_04.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_c_attack_04_10C4C929.wem"
+       },
+       {
+        "Id": "629463621",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_c_attack_06.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_c_attack_06_10C4C929.wem"
+       },
+       {
+        "Id": "758422203",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_c_attack_05.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_c_attack_05_10C4C929.wem"
+       },
+       {
+        "Id": "767282302",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_b_attack_set2_01.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_b_attack_set2_01_10C4C929.wem"
+       },
+       {
+        "Id": "825643761",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_b_attack_set1_07.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_b_attack_set1_07_10C4C929.wem"
+       },
+       {
+        "Id": "858990855",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_c_attack_03.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_c_attack_03_10C4C929.wem"
+       },
+       {
+        "Id": "1068145037",
+        "Language": "SFX",
+        "ShortName": "Character\\Voice\\Male\\Attack\\voice_male_b_attack_set4_05.WAV",
+        "Path": "SFX\\Character\\Voice\\Male\\Attack\\voice_male_b_attack_set4_05_10C4C929.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{58546050-99CF-4FD0-BFCC-D304138C10DE}",
+        "Media": [
+         {
+          "Id": "1068145037"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{6A6D994D-7D55-45C8-BD97-07226FB9BD43}",
+        "Media": [
+         {
+          "Id": "767282302"
+         },
+         {
+          "Id": "629463621"
+         },
+         {
+          "Id": "239300754"
+         },
+         {
+          "Id": "858990855"
+         },
+         {
+          "Id": "317509285"
+         },
+         {
+          "Id": "3081599"
+         },
+         {
+          "Id": "825643761"
+         },
+         {
+          "Id": "89656979"
+         },
+         {
+          "Id": "458775047"
+         },
+         {
+          "Id": "608288290"
+         },
+         {
+          "Id": "758422203"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1964929366",
+      "Name": "Attack_Voice",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Attack_Voice",
+      "GUID": "{3EDBB2B6-2511-4DF7-B183-535E6EDA29C0}",
+      "Switches": [
+       {
+        "Id": "4069590146",
+        "Name": "Attack_Long",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Attack_Voice\\Attack_Long",
+        "GUID": "{58546050-99CF-4FD0-BFCC-D304138C10DE}"
+       },
+       {
+        "Id": "1777109342",
+        "Name": "Attack_Short",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Character\\Attack_Voice\\Attack_Short",
+        "GUID": "{6A6D994D-7D55-45C8-BD97-07226FB9BD43}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
